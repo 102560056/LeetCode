@@ -2,3 +2,16 @@ Commands for running TS files in VSCode:
 
 npm install -g ts-node typescript
 ts-node "<problem>.ts"
+
+// Source : https://leetcode.com/
+// Author : Samual Banfield
+// Date   : 
+
+/********************************************************************************** 
+* 
+*               
+**********************************************************************************/
+
+//Setup
+//Task
+//Handle Results

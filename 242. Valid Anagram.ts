@@ -3,13 +3,13 @@
 // Date   : 05/05/2026
 
 /********************************************************************************** 
-* 
-* Given two strings s and t, return true if t is an of s, and false otherwise.
-* 
-* Example:
-* Input: s = "anagram", t = "nagaram"
-* Output: true
-*               
+
+Given two strings s and t, return true if t is an of s, and false otherwise.
+
+Example:
+Input: s = "anagram", t = "nagaram"
+Output: true
+              
 **********************************************************************************/
 
 //Setup
@@ -35,20 +35,9 @@ function isAnagram(s: string, t: string): boolean {
 //Handle Results
 console.log(isAnagram(s,t))
 
-// Map vs Record Struct
-// const map: Record<string, number> = {};
-// map["a"] = 1;      // set                                       
-// map["a"];          // get                                           
-// map["a"]++;        // update    
-
-// const map = new Map<string, number>();
-// map.set("a", 1);           // set
-// map.get("a");              // get — returns undefined if missing
-// map.set("a", (map.get("a") ?? 0) + 1);   // update
-
 // Notes on Best Solution
 /********************************************************************************** 
-* The best solution simply used a single static 26 len array 
-* It would first check that both both lens of strings are equal and then itterate over a both arrays at once adding and subtracting from the total
-* Then ultimately itterating over the 26 len array to check if it was empty
+The best solution simply used a single static 26 len array 
+It would first check that both both lens of strings are equal and then itterate over a both arrays at once adding and subtracting from the total
+Then ultimately itterating over the 26 len array to check if it was empty
 **********************************************************************************/

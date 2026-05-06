@@ -35,7 +35,9 @@ console.log(result);
 
 // Notes on Best Solution
 /********************************************************************************** 
-* The best solution used a map: Record<number, number>
-* It would first compute the complement to the current number then if that complement was a value in the map 
-* it would store the current number's array index (key) and the current number (value) 
+
+The best solution used a map: Record<number, number>
+It would first compute the complement to the current number then if that complement was a value in the map 
+it would store the current number's array index (key) and the current number (value) 
+
 **********************************************************************************/
